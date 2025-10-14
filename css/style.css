@@ -5,10 +5,12 @@
   list-style: none;
   text-decoration: none;
   scroll-padding-top: 2rem;
-}
+} 
+/* done */
 html {
   scroll-behavior: smooth;
 }
+/* done */
 /* custom scroll bar */
 html::-webkit-scrollbar {
   width: 0.5rem;
@@ -24,14 +26,17 @@ html::-webkit-scrollbar-thumb {
   --text-color:#020307;
   --bg-color:#fff;
 }
+/* done */
 section {
   padding: 4.5rem 1.5rem;
 }
+/* done */
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif; /* Still */
   background: var(--text-color);
   color: var(--bg-color);
 }
+/* done */
 /* Navbar */
 header {
   position: fixed;

@@ -14,11 +14,13 @@
       rel="stylesheet"
     />
     <!-- stylesheet link -->
-    <link rel="stylesheet" href="css/style.css" />
+    <!-- <link rel="stylesheet" href="css/style.css" /> -->
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
-  <body>
-    <!--Navbar  -->
-    <header>
+  <body class="m-0 p-0 box-border list-none no-underline scroll-pt-[32px] scroll-smooth bg-text text-bg">
+    <!--Navbar -->
+    <header class="fixed top-0 right-0 w-100 flex justify-between items-center py-[20px] px-[100px] z-1000 transition duration-500">
       <a href="#home" class="logo"> <i class="fa-solid fa-film"></i> Movies </a>
       <div id="menu-icon"><i class="fa-solid fa-bars"></i></div>
       <!-- menu -->
@@ -32,7 +34,7 @@
     </header>
     <!-- end navbar -->
     <!-- Home -->
-    <section id="home" class="home">
+    <section id="home" class="home px-[72px] py-[24px]">
       <div class="home-text">
         <span>Marvel Universe</span>
         <h2>
@@ -44,7 +46,7 @@
     </section>
     <!-- Home -->
     <!-- Movies -->
-    <section id="movies" class="movies">
+    <section id="movies" class="movies px-[72px] py-[24px]">
       <h2 class="heading">Opening this Week</h2>
       <div class="movies-container">
         <!-- Box 1 -->
@@ -131,7 +133,7 @@
     </section>
     <!-- Movies -->
     <!-- Coming Soon -->
-    <section id="coming soon" class="coming">
+    <section id="coming soon" class="coming px-[72px] py-[24px]">
       <h2 class="heading">Coming Soon</h2>
       <div class="coming-container">
         <div class="box">
@@ -208,7 +210,7 @@
     </section>
     <!-- Coming Soon -->
     <!-- Newsletter -->
-    <section id="newsletter" class="news">
+    <section id="newsletter" class="news px-[72px] py-[24px]">
       <h2>
         Subscribe To Get <br />
         Newsletter
@@ -220,7 +222,7 @@
     </section>
     <!-- Newsletter -->
     <!-- footer -->
-    <section class="footer">
+    <section class="footer px-[72px] py-[24px]">
       <a href="index.html" class="logo">
         <i class="fa-solid fa-film"></i> Movies
       </a>
