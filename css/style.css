@@ -341,10 +341,12 @@ header .btn {
   color: var(--bg-color);
   font-size: 1.1rem;
 }
+/* done */
 .copy span {
   color: var(--main-color);
   cursor: pointer;
 }
+/* done */
 /* copy */
 
 /* Resbonsive */
