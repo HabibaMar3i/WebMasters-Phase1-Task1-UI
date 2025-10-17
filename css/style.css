@@ -295,6 +295,7 @@ header .btn {
   margin-left: auto;
   margin-right: auto;
 }
+/* done */
 .footer .logo {
   font-size: 1.1rem;
   font-weight: 600;
@@ -303,15 +304,18 @@ header .btn {
   align-items: center;
   column-gap: 0.5rem;
 }
+/* done */
 .logo i {
   font-size: 24px;
   color: var(--main-color);
 }
+/* done */
 .social-icons {
   display: flex;
   align-items: center;
   column-gap: 0.5rem;
 }
+/* done */
 .social-icons a {
   width: 55px;
   height: 55px;
@@ -321,13 +325,15 @@ header .btn {
   line-height: 55px;
   background-color: var(--bg-color);
   color: var(--main-color);
-  border: 4px solid rgb(2, 3, 7, 0.4) ;
+  border: 4px solid #02030766 ;
   transition: 0.2s all linear;
 }
+/* done */
 .social-icons a:hover {
   background-color: var(--main-color);
   color: var(--bg-color);
 }
+/* done */
 /* footer */
 /* copy */
 .copy {
