@@ -242,11 +242,13 @@ header .btn {
   justify-content: center;
   row-gap: 2rem;
 }
+/* done */
 .news h2 {
   font-size: 1.8rem;
   font-weight: 600;
   text-align: center;
 }
+/* done */
 .news form {
   display: flex;
   align-items: center;
@@ -254,16 +256,19 @@ header .btn {
   background-color: var(--bg-color);
   border-radius: 0.5rem;
 }
+/* done */
 .news form input[type="email"] {
   border: 0;
   outline: 0;
   width: 300px;
 }
+/* done */
 .news input::placeholder {
   color: var(--text-color);
   font-size: 0.8rem;
   font-weight: 400;
 }
+/* done */
 .news .btn {
   border: 0;
   outline: 0;
@@ -275,9 +280,11 @@ header .btn {
   font-weight: 600;
   text-transform: uppercase;
 }
+/* done */
 .btn:hover {
   background: #fa1216;
 }
+/* done */
 /* news */
 /* footer */
 .footer {
