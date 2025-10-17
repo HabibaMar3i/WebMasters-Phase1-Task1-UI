@@ -19,14 +19,14 @@
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<body class="m-0 p-0 box-border list-none no-underline scroll-pt-[32px] scroll-smooth bg-black text-white">
+<body class="m-0 p-0 box-border list-none no-underline scroll-pt-[32px] scroll-smooth bg-black text-white [font-family:Poppins,sans-serif]">
   <!--Navbar -->
   <header
-    class="fixed top-0 right-0 w-100 flex justify-between items-center py-[20px] px-[100px] z-1000 transition duration-500 max-lg:px-[4%] max-lg:py-[18px] max-[774px]:py-[12px]">
+    class="fixed top-0 right-0 w-full flex justify-between items-center py-[20px] px-[100px] z-1000 transition duration-500 max-lg:px-[4%] max-lg:py-[18px] max-[774px]:py-[12px] max-[300px]:py-[6px] [&.shadow]:bg-white [&.shadow]:shadow-[0_0_4px_rgb(14_55_54_/_15%)] [&.shadow_.navbar_a]:text-black [&.shadow_.logo]:text-black [&.shadow_#menu-icon]:text-black">
     <a href="#home" class="logo size-[17.6px] font-semibold text-white flex items-center gap-4"> <i
         class="fa-solid fa-film text-2xl text-white"></i> Movies </a>
-    <div id="menu-icon" class="text-2xl cursor-pointer z-[100001] hidden"><i
-        class="fa-solid fa-bars max-[774px]:inline max-[774px]:text-white"></i></div>
+    <div id="menu-icon" class="text-2xl cursor-pointer z-[100001] hidden max-[774px]:block text-white"><i
+        class="fa-solid fa-bars"></i></div>
     <!-- menu -->
     <ul class="navbar flex gap-20 max-[774px]:absolute max-[774px]:left-0 max-[774px]:right-0 
          max-[774px]:flex max-[774px]:flex-col max-[774px]:bg-[color:var(--bg-color)]
@@ -60,7 +60,7 @@
       </li>
     </ul>
     <a href="#"
-      class="btn bg-[#ff2c1f] text-white px-[22.4px] py-[11.2px] rounded-lg font-normal hover:bg-[#ff2c1f] max-[774px]:px-[19.2px] max-[774px]:py-[9.6px]">Sign In</a>
+      class="btn bg-[#ff2c1f] text-white px-[22.4px] py-[11.2px] rounded-lg font-normal hover:bg-[#fa1216] max-[774px]:px-[19.2px] max-[774px]:py-[9.6px]">Sign In</a>
   </header>
   <!-- end navbar -->
   <!-- Home -->
@@ -73,7 +73,7 @@
         Far From Home
       </h2>
       <a href="#"
-        class="btn bg-[#ff2c1f] text-white px-[22.4px] py-[11.2px] rounded-lg font-normal hover:bg-[#ff2c1f] max-[774px]:px-[19.2px] max-[774px]:py-[9.6px]">Book
+        class="btn bg-[#ff2c1f] text-white px-[22.4px] py-[11.2px] rounded-lg font-normal hover:bg-[#fa1216] max-[774px]:px-[19.2px] max-[774px]:py-[9.6px]">Book
         Now</a>
     </div>
   </section>
