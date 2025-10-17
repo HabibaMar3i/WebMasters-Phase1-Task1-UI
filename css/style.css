@@ -135,23 +135,26 @@ header .btn {
   background-size: cover;
   position: relative;
 }
-
+/* done */
 .home .home-text {
   position: absolute;
   top: 40%;
   padding-left: 80px;
 }
+/* done */
 .home-text span {
   font-weight: 500;
   color: #000;
   text-transform: uppercase;
 }
+/* done */
 .home-text h2 {
   color: var(--bg-color);
   font-size: 4rem;
   font-weight: 700;
   margin-bottom: 1rem;
 }
+/* done */
 .home-text .btn {
   background-color: var(--main-color);
   color: var(--bg-color);
@@ -159,9 +162,11 @@ header .btn {
   border-radius: 0.5rem;
   font-weight: 400;
 }
+/* done */
 .btn:hover {
   background: #fa1216;
 }
+/* done */
 /* Home */
 
 /* Movies */
