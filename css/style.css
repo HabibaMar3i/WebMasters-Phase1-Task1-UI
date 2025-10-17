@@ -51,6 +51,7 @@ header {
   /* background-color: var(--bg-color); */
   transition: 0.5s;
 }
+/* done */
 header.shadow {
   background-color: var(--bg-color);
   box-shadow: 0 0 4px rgb(14 55 54 / 15%);
@@ -69,22 +70,27 @@ header .logo {
   align-items: center;
   column-gap: 0.5rem;
 }
+/* done */
 .logo i {
   font-size: 24px;
   color: var(--bg-color);
 }
+/* done */
 header .navbar {
   display: flex;
   column-gap: 5rem;
 }
+/* done */
 .navbar li {
   position: relative;
 }
+/* done */
 .navbar a {
   font-weight: 500;
   font-size: 1rem;
   color: var(--main-color);
 }
+/* done */
 .navbar a::after{
   content: '';
   position: absolute;
@@ -95,6 +101,7 @@ header .navbar {
   bottom: -4px;
   transition: 0.4s all linear;
 }
+/* done */
 .navbar a:hover::after,
 .navbar .home-active::after {
   width: 100%;
@@ -105,6 +112,7 @@ header .navbar {
   z-index: 100001;
   display: none;
 }
+/* done */
 header .btn {
   background-color: var(--main-color);
   color: var(--bg-color);
@@ -112,9 +120,11 @@ header .btn {
   border-radius: 0.5rem;
   font-weight: 400;
 }
+/* done */
 .btn:hover {
   background: #fa1216;
 }
+/* done */
 /* Navbar */
 /* Home */
 .home {
